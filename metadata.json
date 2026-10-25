@@ -1,0 +1,8 @@
+{
+  "name": "Remix Prophete Universal Voice Web",
+  "description": "A voice-interactive website for Prophete Universal tax and insurance services featuring auto-scroll and AI-guided navigation.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": []
+}

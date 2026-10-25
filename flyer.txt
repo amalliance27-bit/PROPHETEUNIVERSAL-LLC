@@ -1,0 +1,117 @@
+                    {/* Official Executive Flyer & Core Services Cards */}
+                    <div className="bg-white rounded-2xl p-4 sm:p-5 shadow-md border border-slate-200 space-y-4">
+                        <div className="text-center max-w-2xl mx-auto space-y-2 pb-4 border-b border-slate-200">
+                           <span className="inline-block px-3 py-1 bg-teal-100 text-teal-950 rounded-full text-sm font-extrabold tracking-wide uppercase">
+                             Official Executive Credentials & Flyer
+                           </span>
+                           <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
+                             Comprehensive Insurance & Tax Protection
+                           </h3>
+                        </div>
+
+                        <div className="grid md:grid-cols-2 gap-4">
+                           {/* Insurance Protection Card */}
+                           <div className="bg-gradient-to-br from-teal-900 to-slate-900 text-white rounded-xl p-5 flex flex-col justify-between shadow-md relative overflow-hidden">
+                              <div className="relative z-10 space-y-3">
+                                 <div className="inline-block px-3 py-1 bg-yellow-400 text-slate-950 font-bold text-sm uppercase tracking-wider rounded">
+                                   Comprehensive Coverage
+                                 </div>
+                                 <h4 className="text-xl font-bold text-white">
+                                   Is Your Family Protected From Unexpected Burdens?
+                                 </h4>
+                                 <p className="text-teal-100 text-sm leading-relaxed">
+                                   Whether facing death, disability, or critical illness—does your policy offer <strong>living benefits</strong>, orphan benefits, and scholarship protection? Regardless of medical condition, <strong>we can get you covered!</strong>
+                                 </p>
+                                 
+                                 <div className="pt-2">
+                                    <h5 className="text-yellow-300 font-bold text-sm uppercase tracking-wider mb-2">Key Policies & Plans:</h5>
+                                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-sm text-slate-200">
+                                       <li className="flex items-center gap-1.5">
+                                          <span className="text-yellow-400 font-bold">✓</span> Life w/ Living Benefits
+                                       </li>
+                                       <li className="flex items-center gap-1.5">
+                                          <span className="text-yellow-400 font-bold">✓</span> Tax-Free IUL Retirement
+                                       </li>
+                                       <li className="flex items-center gap-1.5">
+                                          <span className="text-yellow-400 font-bold">✓</span> Guaranteed Annuities
+                                       </li>
+                                       <li className="flex items-center gap-1.5">
+                                          <span className="text-yellow-400 font-bold">✓</span> Mortgage Protection
+                                       </li>
+                                       <li className="flex items-center gap-1.5">
+                                          <span className="text-yellow-400 font-bold">✓</span> Final Expense Coverage
+                                       </li>
+                                       <li className="flex items-center gap-1.5">
+                                          <span className="text-yellow-400 font-bold">✓</span> College Savings Plans
+                                       </li>
+                                       <li className="flex items-center gap-1.5">
+                                          <span className="text-yellow-400 font-bold">✓</span> Children Policies
+                                       </li>
+                                       <li className="flex items-center gap-1.5">
+                                          <span className="text-yellow-400 font-bold">✓</span> Home & Auto Insurance
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+
+                              <div className="pt-4 relative z-10">
+                                 <button 
+                                   onClick={() => setCurrentPage(Page.SCHEDULE_CALL)}
+                                   className="w-full py-2.5 bg-yellow-400 hover:bg-yellow-300 text-slate-950 font-bold rounded-lg transition-all text-center shadow-md uppercase tracking-wide text-sm"
+                                 >
+                                   Schedule FREE Policy Review
+                                 </button>
+                              </div>
+                           </div>
+
+                           {/* Tax Professional Card */}
+                           <div className="bg-gradient-to-br from-slate-50 to-teal-50 border border-teal-200/60 rounded-xl p-5 flex flex-col justify-between shadow-md">
+                              <div className="space-y-3">
+                                 <div className="inline-block px-3 py-1 bg-teal-800 text-white font-bold text-sm uppercase tracking-wider rounded">
+                                   Certified Tax Professional
+                                 </div>
+                                 <h4 className="text-xl font-bold text-slate-900">
+                                   Don't Leave Your Hard-Earned Money to Uncle Sam!
+                                 </h4>
+                                 <p className="text-slate-700 text-sm leading-relaxed">
+                                   Tax filing can be complicated. We maximize your tax return deductions and ensure you get every dollar you deserve with total peace of mind.
+                                 </p>
+                                 
+                                 <div className="p-3 bg-emerald-100/70 border border-emerald-300 rounded-lg text-emerald-900 space-y-1">
+                                    <div className="font-extrabold text-sm flex items-center gap-1.5">
+                                       <svg className="w-4 h-4 text-emerald-700" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/></svg>
+                                       Maximum Refund Guarantee
+                                    </div>
+                                    <p className="text-sm font-medium text-slate-700">
+                                       Professional, accurate filing backed by certified expertise and year-round support.
+                                    </p>
+                                 </div>
+
+                                 <div className="pt-1">
+                                    <h5 className="text-teal-900 font-bold text-sm uppercase tracking-wider mb-1.5">Why Clients Trust Us:</h5>
+                                    <ul className="space-y-1 text-sm text-slate-800 font-medium">
+                                       <li className="flex items-center gap-1.5">
+                                          <span className="text-teal-700 font-bold">✓</span> Personalized One-on-One Consultations
+                                       </li>
+                                       <li className="flex items-center gap-1.5">
+                                          <span className="text-teal-700 font-bold">✓</span> Federal & State Return Optimization
+                                       </li>
+                                       <li className="flex items-center gap-1.5">
+                                          <span className="text-teal-700 font-bold">✓</span> 100% Confidential & Secure E-Filing
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+
+                              <div className="pt-4">
+                                 <button 
+                                   onClick={() => setCurrentPage(Page.TAX_SERVICES)}
+                                   className="w-full py-2.5 bg-teal-900 hover:bg-teal-800 text-white font-bold rounded-lg transition-all text-center shadow-md uppercase tracking-wide text-sm"
+                                 >
+                                   Explore Tax Services
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+
